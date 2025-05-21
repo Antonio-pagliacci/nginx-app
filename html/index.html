@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Docker</title>
+    <style>
+      .container
+{
+  background-color: #ccc;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 50px;
+    padding: 40px;
+    border-radius: 8px;
+}
+.conatiner img
+{
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+}
+
+.container p {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="docker.webp" alt="" />
+      <h1>Docker</h1>
+      <p>
+        Docker é uma plataforma para criar, empacotar, distribuir e executar
+        aplicações em containers. Ele permite que desenvolvedores criem
+        ambientes isolados e portáveis que funcionam da mesma forma em qualquer
+        lugar (ambiente de desenvolvimento, teste, produção etc.).
+      </p>
+      <h2>Conceitos Principais</h2>
+      <p>
+        Container: É uma unidade leve, portátil e isolada que roda uma aplicação
+        com todas as suas dependências. Imagem: É um blueprint (modelo) imutável
+        usado para criar containers. Pode ser baseada em sistemas operacionais
+        como Ubuntu, Alpine etc. Dockerfile: Arquivo de texto com instruções
+        para construir uma imagem. Docker Hub: Repositório online de imagens
+        Docker (como um "GitHub de imagens"). Volume: Usado para persistir dados
+        fora do container. Docker Compose: Ferramenta para definir e gerenciar
+        múltiplos containers (como uma stack) usando um arquivo
+        docker-compose.yml.
+      </p>
+      <h2>Vantagens do Docker</h2>
+      <p>
+        Portabilidade entre ambientes Isolamento de processos Rápida criação e
+        destruição de ambientes Reprodutibilidade (mesmo comportamento em
+        qualquer lugar)
+      </p>
+    </div>
+  </body>
+</html>
